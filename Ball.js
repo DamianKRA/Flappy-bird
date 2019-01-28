@@ -20,7 +20,7 @@ function Ball() {
     };
 
     this.update = function () {
-        //ograniczenie przyśpieszenia od -10 do 10
+        //ograniczenie przyśpieszenia od -7 do 7
         if (this.velocity > this.maxVelo) {
             this.velocity = this.maxVelo;
         }
@@ -34,7 +34,7 @@ function Ball() {
             gameOver = true;
         }
 
-        //ochrona przed zbyt wyokością
+        //ochrona przed wyjściem ponad mape
         if (this.y < 0 - this.size / 2) {
             this.y = 0;
         }
