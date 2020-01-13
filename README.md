@@ -1,4 +1,4 @@
 # Flappy-bird
-Gra Flappy Bird
+Gra Flappy Bird o bardzo okrojonej grafice :D
 
-Najlepiej wygląda w widoku z użądzeń przenośnych (mała rozdzielczość / wysokość > szerokość ekranu)
+Najlepiej wygląda w widoku z użądzeń przenośnych (mała rozdzielczość. Wysokość > szerokość ekranu)
